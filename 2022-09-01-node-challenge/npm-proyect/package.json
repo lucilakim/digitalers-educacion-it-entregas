@@ -1,0 +1,22 @@
+{
+  "name": "npm-json-assignment",
+  "version": "1.0.0",
+  "description": "Create a API rest fake complete with json-server. Using user.json fill it, and test with the url the methods to get your data and make queries.",
+  "main": "sever.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "json-server server.js"
+  },
+  "keywords": [
+    "digitalers",
+    "course",
+    "node",
+    "npm"
+  ],
+  "author": "Lucila",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.19"
+  }
+}
